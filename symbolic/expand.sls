@@ -100,7 +100,7 @@
 
          ((div? expr)
           (make-div (expand (div-f expr))
-                    (expand (div-g expr)))
+                    (expand (div-g expr))))
 
          (else expr)))
 
